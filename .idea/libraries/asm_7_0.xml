@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="asm-7.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../SSM-test/web/WEB-INF/lib/asm-7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../SSM-test/web/WEB-INF/lib/cglib-3.2.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../SSM-test/web/WEB-INF/lib/commons-dbcp2-2.7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../SSM-test/web/WEB-INF/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../SSM-test/web/WEB-INF/lib/commons-pool2-2.8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../SSM-test/web/WEB-INF/lib/mybatis-3.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../SSM-test/web/WEB-INF/lib/mybatis-spring-2.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../SSM-test/web/WEB-INF/lib/mysql-connector-java-8.0.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../SSM-test/web/WEB-INF/lib/spring-aop-5.2.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../SSM-test/web/WEB-INF/lib/spring-beans-5.2.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../SSM-test/web/WEB-INF/lib/spring-context-5.2.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../SSM-test/web/WEB-INF/lib/spring-core-5.2.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../SSM-test/web/WEB-INF/lib/spring-expression-5.2.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../SSM-test/web/WEB-INF/lib/spring-jdbc-5.2.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../SSM-test/web/WEB-INF/lib/spring-tx-5.2.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../SSM-test/web/WEB-INF/lib/spring-web-5.2.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../SSM-test/web/WEB-INF/lib/spring-webmvc-5.2.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../SSM-test/web/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../SSM-test/web/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
