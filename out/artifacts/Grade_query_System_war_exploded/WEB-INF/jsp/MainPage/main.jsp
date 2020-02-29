@@ -30,13 +30,14 @@
     </div>
     <div class="navbar-menu">
         <div class="navbar-start">
-            <a class="navbar-item">
-                &nbsp;关于我们
+            <a class="navbar-item"><i class="fas fa-user-friends"></i>
+                    &nbsp;关于我们
             </a>
-            <a class="navbar-item">
+            <a class="navbar-item" href="${pageContext.request.contextPath}/main/comment">
           <span class="icon">
             <i class="fas fa-comments"></i>
           </span>
+
                 <span>
             &nbsp;给我留言
           </span>
@@ -93,16 +94,16 @@
                     <div class="pure-menu custom-restricted-width">
                         <span class="pure-menu-heading">操作</span>
                         <ul class="pure-menu-list">
-                            <li class="pure-menu-item"><a href="#" class="pure-menu-link">&nbsp;&nbsp;&nbsp;&nbsp;全部</a>
+                            <li class="pure-menu-item"><a href="#" class="pure-menu-link"><i class="fas fa-th"></i> &nbsp;&nbsp;&nbsp;&nbsp;全部</a>
                             </li>
-                            <li class="pure-menu-item"><a href="#" class="pure-menu-link">&nbsp;&nbsp;&nbsp;&nbsp;修改</a>
+                            <li class="pure-menu-item"><a href="#" class="pure-menu-link"><i class="fas fa-pen"></i> &nbsp;&nbsp;&nbsp;&nbsp;修改</a>
                             </li>
-                            <li class="pure-menu-item"><a href="#" class="pure-menu-link">&nbsp;&nbsp;&nbsp;&nbsp;添加</a>
+                            <li class="pure-menu-item"><a href="#" class="pure-menu-link"><i class="fas fa-plus"></i> &nbsp;&nbsp;&nbsp;&nbsp;添加</a>
                             </li>
                             <li class="pure-menu-heading">设置</li>
                             <li class="pure-menu-item"><a href="#"
                                                           class="pure-menu-link">&nbsp;&nbsp;&nbsp;&nbsp;News</a></li>
-                            <li class="pure-menu-item"><a href="#" class="pure-menu-link">&nbsp;&nbsp;&nbsp;&nbsp;设置</a>
+                            <li class="pure-menu-item"><a href="#" class="pure-menu-link"><i class="fas fa-wrench"></i> &nbsp;&nbsp;&nbsp;&nbsp;设置</a>
                             </li>
                         </ul>
                     </div>

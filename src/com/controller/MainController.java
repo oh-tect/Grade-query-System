@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/main")
 public class MainController {
     @RequestMapping("/comment")
-    public String conmments(){
-        return ""
+    public String comments() {
+        return "MainPage/Comment";
     }
     }
 

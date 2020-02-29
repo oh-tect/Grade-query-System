@@ -17,7 +17,8 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.min.css">
         <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
         <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css"
-              integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+              integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47"
+              crossorigin="anonymous">
 
     </head>
 
@@ -36,10 +37,10 @@
             <a class="navbar-item">
                 首页
             </a>
-            <a class="navbar-item">
+            <a class="navbar-item"><i class="fas fa-user-friends"></i>
                 关于我们
             </a>
-            <a class="navbar-item">给我留言</a>
+            <a class="navbar-item"><i class="fas fa-comments"></i>给我留言</a>
         </div>
     </div>
     <div class="navbar-end">
