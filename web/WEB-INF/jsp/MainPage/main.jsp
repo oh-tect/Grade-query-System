@@ -56,11 +56,10 @@
                 </span>
             </a>
             <div class="navbar-dropdown">
-                <a class="navbar-item">
+                <a class="navbar-item" href="${pageContext.request.contextPath}/main/login">
             <span class="icon">
               <i class="fa fa-user" aria-hidden="true"></i>
-            </span>
-                    <span>
+            </span><span>
               注销
             </span>
                 </a>
@@ -100,7 +99,8 @@
                             <li class="pure-menu-item"><a href="#" class="pure-menu-link"><i class="fas fa-pen"></i>
                                 &nbsp;&nbsp;&nbsp;&nbsp;修改</a>
                             </li>
-                            <li class="pure-menu-item"><a href="#" class="pure-menu-link"><i class="fas fa-plus"></i>
+                            <li class="pure-menu-item"><a href="${pageContext.request.contextPath}/main/add"
+                                                          class="pure-menu-link"><i class="fas fa-plus"></i>
                                 &nbsp;&nbsp;&nbsp;&nbsp;添加</a>
                             </li>
                             <li class="pure-menu-heading">设置</li>

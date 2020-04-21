@@ -33,7 +33,8 @@
             <a class="navbar-item"><i class="fas fa-user-friends"></i>
                 &nbsp;关于我们
             </a>
-            <a class="navbar-item" href="${pageContext.request.contextPath}/main/comment"><i class="fas fa-comments"></i>&nbsp;给我留言</a>
+            <a class="navbar-item" href="${pageContext.request.contextPath}/main/comment"><i
+                    class="fas fa-comments"></i>&nbsp;给我留言</a>
         </div>
     </div>
     <div class="navbar-end">

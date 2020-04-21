@@ -33,7 +33,8 @@
             <a class="navbar-item"><i class="fas fa-user-friends"></i>
                 &nbsp;关于我们
             </a>
-            <a class="navbar-item" href="${pageContext.request.contextPath}/main/comment"><i class="fas fa-comments"></i>&nbsp;给我留言</a>
+            <a class="navbar-item" href="${pageContext.request.contextPath}/main/comment"><i
+                    class="fas fa-comments"></i>&nbsp;给我留言</a>
         </div>
     </div>
 </nav>
@@ -53,37 +54,37 @@
                 </div>
                 <div class="column is-one-third">
                     <form action="${pageContext.request.contextPath}/user/RegisterControl" method="post">
-                    <div class="field">
-                        <div class="control has-icons-left has-icons-right">
-                            <input class="input is-medium" type="text" placeholder="用户名" name="usr">
-                            <span class="icon is-small is-left">
+                        <div class="field">
+                            <div class="control has-icons-left has-icons-right">
+                                <input class="input is-medium" type="text" placeholder="用户名" name="usr">
+                                <span class="icon is-small is-left">
                                     <i class="fas fa-user"></i>
                                 </span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="field">
-                        <p class="control has-icons-left">
-                            <input class="input is-medium" type="password" placeholder="密码" name="pwd">
-                            <span class="icon is-small is-left">
+                        <div class="field">
+                            <p class="control has-icons-left">
+                                <input class="input is-medium" type="password" placeholder="密码" name="pwd">
+                                <span class="icon is-small is-left">
                                     <i class="fas fa-lock"></i>
                                 </span>
-                        </p>
-                    </div>
-                    <div class="field">
-                        <p class="control has-icons-left">
-                            <input class="input is-medium" type="password" placeholder="再次输入密码">
-                            <span class="icon is-small is-left">
+                            </p>
+                        </div>
+                        <div class="field">
+                            <p class="control has-icons-left">
+                                <input class="input is-medium" type="password" placeholder="再次输入密码" name="repwd">
+                                <span class="icon is-small is-left">
                                         <i class="fas fa-lock"></i>
                                     </span>
-                        </p>
-                    </div>
-                    <div class="field has-addons-centered">
-                        <p class="control">
-                            <input  type="submit" class="button is-primary" value="注册">
+                            </p>
+                        </div>
+                        <div class="field has-addons-centered">
+                            <p class="control">
+                                <input type="submit" class="button is-primary" value="注册">
 
-                        </p>
-                    </div>
-                    <div class="field"></div>
+                            </p>
+                        </div>
+                        <div class="field"></div>
                     </form>
                 </div>
                 <div class="column is-one-third"></div>

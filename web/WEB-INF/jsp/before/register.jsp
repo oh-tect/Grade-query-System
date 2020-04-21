@@ -72,7 +72,7 @@
                         </div>
                         <div class="field">
                             <p class="control has-icons-left">
-                                <input class="input is-medium" type="password" placeholder="再次输入密码">
+                                <input class="input is-medium" type="password" placeholder="再次输入密码" name="repwd">
                                 <span class="icon is-small is-left">
                                         <i class="fas fa-lock"></i>
                                     </span>

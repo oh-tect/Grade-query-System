@@ -4,5 +4,6 @@
 <configuration>
     <mappers>
         <mapper resource="com/mybatis/mapper/UserMapper.xml"/>
+        <mapper resource="com/mybatis/mapper/GradeMapper.xml"/>
     </mappers>
 </configuration>
