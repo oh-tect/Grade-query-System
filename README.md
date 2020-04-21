@@ -4,7 +4,7 @@
    
 实现
 --------------
-* 数据库：MySQL
+* 数据库：MariaDB
 * css框架：BUMLA
 * Javaweb框架：Spring + Mybatis + Spring MVC
 * 服务器：Tomcat<br>
