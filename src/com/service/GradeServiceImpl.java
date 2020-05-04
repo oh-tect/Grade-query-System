@@ -13,8 +13,8 @@ public class GradeServiceImpl implements GradeService {
     private GradeDao gradeDao;
 
     @Override
-    public List<Grade> selectGrades() {
-        return gradeDao.selectGrades();
+    public List<Grade> selectGrades(String usr) {
+        return gradeDao.selectGrades(usr);
     }
 
     @Override

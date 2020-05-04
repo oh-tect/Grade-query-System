@@ -1,22 +1,15 @@
 package com.po;
 
+import javax.persistence.criteria.CriteriaBuilder;
+
 public class Grade {
     String usr;
     int ch;
     int ma;
     int en;
-    int phy;
-    int che;
-    int bio;
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
-    }
-
+    String phy;
+    String che;
+    String bio;
     String id;
 
     public String getUsr() {
@@ -51,56 +44,96 @@ public class Grade {
         this.en = en;
     }
 
-    public int getPhy() {
+    public String getPhy() {
         return phy;
     }
 
-    public void setPhy(int phy) {
+    public void setPhy(String phy) {
         this.phy = phy;
     }
 
-    public int getChe() {
+    public String getChe() {
         return che;
     }
 
-    public void setChe(int che) {
+    public void setChe(String che) {
         this.che = che;
     }
 
-    public int getBio() {
+    public String getBio() {
         return bio;
     }
 
-    public void setBio(int bio) {
+    public void setBio(String bio) {
         this.bio = bio;
     }
 
-    public int getHi() {
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getHi() {
         return hi;
     }
 
-    public void setHi(int hi) {
+    public void setHi(String hi) {
         this.hi = hi;
     }
 
-    public int getPo() {
+    public String getPo() {
         return po;
     }
 
-    public void setPo(int po) {
+    public void setPo(String po) {
         this.po = po;
     }
 
-    public int getGe() {
+    public String getGe() {
         return ge;
     }
 
-    public void setGe(int ge) {
+    public void setGe(String ge) {
         this.ge = ge;
     }
 
-    int hi;
-    int po;
-    int ge;
+    String hi;
+    String po;
+    String ge;
+    int all;
 
+    public void setAll(int all) {
+        this.all = all;
+    }
+
+    public int getAll() {
+        if (phy.equals("")) {
+            phy = "0";
+        }
+        if (che.equals("")) {
+            che = "0";
+        }
+        if (bio.equals("")) {
+            bio = "0";
+        }
+        if (hi.equals("")) {
+            hi = "0";
+        }
+        if (po.equals("")) {
+            po = "0";
+        }
+        if (ge.equals("")) {
+            ge = "0";
+        }
+        int phy1 = Integer.parseInt(phy);
+        int che1 = Integer.parseInt(che);
+        int bio1 = Integer.parseInt(bio);
+        int hi1 = Integer.parseInt(hi);
+        int po1 = Integer.parseInt(po);
+        int ge1 = Integer.parseInt(ge);
+        return ch + ma + en + phy1 + che1 + bio1 + hi1 + po1 + ge1;
+    }
 }

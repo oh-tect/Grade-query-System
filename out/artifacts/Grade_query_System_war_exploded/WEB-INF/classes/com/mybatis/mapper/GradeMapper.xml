@@ -4,10 +4,10 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.dao.GradeDao">
     <select id="selectGrades" resultType="com.po.Grade">
-         select * from grade
+         select * from grade where usr = #{usr}
     </select>
     <insert id="insertGrades" parameterType="com.po.Grade">
-        insert into grade values (#{usr},#{id},#{ch},#{ma},#{en},#{phy},#{che},#{bio},#{hi},#{po},#{ge})
+        insert into grade values (#{usr},#{id},#{ch},#{ma},#{en},#{phy},#{che},#{bio},#{hi},#{po},#{ge},#{all})
     </insert>
 
 </mapper>

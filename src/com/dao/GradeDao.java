@@ -5,7 +5,7 @@ import com.po.Grade;
 import java.util.List;
 
 public interface GradeDao {
-    List<Grade> selectGrades();
+    List<Grade> selectGrades(String usr);
 
     int insertGrades(Grade grade);
 }

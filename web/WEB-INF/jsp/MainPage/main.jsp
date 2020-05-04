@@ -93,7 +93,8 @@
                     <div class="pure-menu custom-restricted-width">
                         <span class="pure-menu-heading">操作</span>
                         <ul class="pure-menu-list">
-                            <li class="pure-menu-item"><a href="#" class="pure-menu-link"><i class="fas fa-th"></i>
+                            <li class="pure-menu-item"><a href="${pageContext.request.contextPath}/main/query"
+                                                          class="pure-menu-link"><i class="fas fa-th"></i>
                                 &nbsp;&nbsp;&nbsp;&nbsp;全部</a>
                             </li>
                             <li class="pure-menu-item"><a href="#" class="pure-menu-link"><i class="fas fa-pen"></i>
@@ -163,7 +164,7 @@
                     <th>地</th>
                     <th>历</th>
                     <th>政</th>
-                    <th>总计</th>
+                    <th>总分</th>
                 </tr>
                 </thead>
                 <tfoot>

@@ -9,6 +9,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import java.util.List;
 import javax.servlet.http.HttpSession;
 import java.net.http.HttpClient;
 import java.text.SimpleDateFormat;
@@ -53,5 +54,12 @@ public class MainController {
         return "error/AddGradeOK";
     }
 
+    @RequestMapping("/query")
+    public String query(Model model, HttpSession session) {
+        String usr = (String) session.getAttribute("username");
+        List<Grade> grade = gradeDao.selectGrades(usr);
+        model.addAttribute("grade", grade);
+        return "MainPage/query";
+    }
 }
 

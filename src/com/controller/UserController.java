@@ -66,8 +66,6 @@ public class UserController {
         System.out.println(user.getPwd());
         int row = loginService.login(user);
         if (row == 1) {
-            List<Grade> list = gradeDao.selectGrades();
-            addr.setAttribute("list", list);
             addr.setAttribute("username", user.getUsr());
             return "MainPage/main";
         } else {
